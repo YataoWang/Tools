@@ -13,13 +13,11 @@ git poll origin master
 5. Commit
 git add "**************"
 git commit -m ""
-
-6. Update to remote
 git push origin master
 
-7. Config the Git user
+8. Config the Git user
 git config --global user.name ""
 git config --global user.email ""
 
-8. Save the passsword
+9. Save the passsword
 git config --global credential.helper store
