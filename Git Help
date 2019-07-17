@@ -1,8 +1,24 @@
 1. Clone
 git clone https://github.com/YataoWang/Tools.git
 
-2. Remove
-git poll origin master
+2. Remove remote file and keep local file
 git rm -f -r -cached ....
+
+3. Remove remote and local file
+git rm -f -r -cached ....
+
+4. Update
+git poll origin master
+
+5. Commit
 git commit -m ""
+
+6. Update to remote
 git push origin master
+
+7. Config the Git user
+git config --global user.name ""
+git config --global user.email ""
+
+8. Save the passsword
+git config --global credential.helper store
