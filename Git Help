@@ -11,6 +11,7 @@ git rm -f -r -cached ....
 git poll origin master
 
 5. Commit
+git add "**************"
 git commit -m ""
 
 6. Update to remote
