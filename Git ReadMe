@@ -1,8 +1,0 @@
-1. Clone
-git clone https://github.com/YataoWang/Tools.git
-
-2. Remove
-git poll origin master
-git rm -f -r -cached ....
-git commit -m ""
-git push origin master
