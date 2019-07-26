@@ -1,5 +1,4 @@
 #VIM
-
 1. Install  
 Debian/Ubuntu : apt-get install vim  
 Redhat/CentOS : yum insatll vim  
