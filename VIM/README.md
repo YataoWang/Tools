@@ -25,3 +25,14 @@ set smarttab
 set showmatch  
 set matchtime=1  
 set showcmd  
+set autoread  
+set autowrite  
+set cursorline  
+set confirm  
+set expandtab  
+set hlsearch  
+set incsearch  
+set ignorecase  
+set autoindent  
+set t_Co=256  
+set ttimeoutlen=0  
