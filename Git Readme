@@ -7,15 +7,19 @@ git rm -f -r -cached ....
 3. Remove remote and local file
 git rm -f -r -cached ....
 
-4. Update
+4. Rename file  
+git mv -f oldfile newfile  
+git add -u newfolder
+
+5. Update
 git poll origin master
 
-5. Commit
+6. Commit
 git add "**************"
 git commit -m ""
-git push origin master
+8it push origin master
 
-8. Config the Git user
+7. Config the Git user
 git config --global user.name ""
 git config --global user.email ""
 
