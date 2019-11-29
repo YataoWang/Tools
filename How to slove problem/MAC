@@ -1,4 +1,5 @@
-##The MAC VM does not display at full screen
+The MAC VM does not display at full screen 
+ 
 1. Input following at the start of the VMX file 
 bosi.forceSetupOnce="TRUE" 
 2. Enter Setup -> Boot from a file -> Recovery HD -> com.apply.recovery.boot -> boot.efi 
@@ -6,3 +7,5 @@ bosi.forceSetupOnce="TRUE"
 4. Input the following command in Terminal 
 csrutil disable 
 5. reboot, then reinstall the tools 
+-------------------------------------------------- 
+
